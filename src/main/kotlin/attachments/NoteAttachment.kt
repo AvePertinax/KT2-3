@@ -1,6 +1,5 @@
 package attachments
-
-data class NoteAttachment(
+data class Note(
     val id: Int = 0,
     val ownerId: Int = 0,
     val title: String = "",

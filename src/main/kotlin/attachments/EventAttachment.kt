@@ -1,6 +1,5 @@
 package attachments
-
-data class EventAttachment(
+data class Event(
     val id: Int = 0,
     val time: UInt = 0u,
     val memberStatus: Int = 0,

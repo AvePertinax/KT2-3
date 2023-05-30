@@ -1,6 +1,6 @@
 package attachments
 
-data class AudioAttachment(
+data class Audio(
     val id: Int = 0,
     val ownerId: Int = 0,
     val artist: String = "",
