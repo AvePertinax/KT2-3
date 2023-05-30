@@ -67,7 +67,17 @@ fun main() {
     val postedPhotoAttachment = PostedPhotoAttachment(postedPhoto)
 
 
-    WallService.add(Post(attachments = arrayOf(audioAttachment, eventAttachment, graffitiAttachment, noteAttachment, postedPhotoAttachment)))
+    WallService.add(
+        Post(
+            attachments = arrayOf(
+                audioAttachment,
+                eventAttachment,
+                graffitiAttachment,
+                noteAttachment,
+                postedPhotoAttachment
+            )
+        )
+    )
 
     println(WallService)
 }
